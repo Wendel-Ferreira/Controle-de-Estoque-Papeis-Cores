@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.papeis.cores.EstoquePapeis.Cores.Controller.ViewController">
+   <content>
+      <VBox prefHeight="392.0" prefWidth="596.0">
+         <children>
+            <MenuBar stylesheets="@Style.css">
+              <menus>
+                <Menu mnemonicParsing="false" text="Add">
+                  <items>
+                    <MenuItem fx:id="menuItemAdd" mnemonicParsing="false" onAction="#onButtonAdd" text="Novo Produto" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="List">
+                  <items>
+                    <MenuItem fx:id="menuItemLista" mnemonicParsing="false" onAction="#onButtonList" text="Lista De Produtos" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Voltar">
+                  <items>
+                    <MenuItem fx:id="menuItemVoltar" mnemonicParsing="false" onAction="#onVoltarPaginaAnterior" text="Voltar" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <Label alignment="CENTER" cache="true" nodeOrientation="RIGHT_TO_LEFT" prefHeight="123.0" prefWidth="583.0" text="Estoque" wrapText="true">
+               <font>
+                  <Font name="Verdana Italic" size="36.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="92.0" fitWidth="312.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Users/Pichau/Pictures/Papeis&amp;Cores/Logo_site%20.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Label>
+         </children>
+      </VBox>
+   </content>
+</ScrollPane>
