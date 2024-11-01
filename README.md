@@ -13,7 +13,6 @@
 ## 📋 Funcionalidades
 1. **Gerenciamento de Produtos:** Adicionar, visualizar, editar e excluir produtos do estoque.
 2. **Interface Responsiva:** Ajuste automático na tabela.
-3. **Soma Total em estoque.
 
 ## 🚀 Estrutura do Projeto
 
